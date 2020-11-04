@@ -24,6 +24,11 @@ const Navbar = () => (
         Playlists
       </Menu.Item>
     </Link>
+    <Link to="/artists">
+      <Menu.Item>
+        Artists
+      </Menu.Item>
+    </Link>
   </Menu>
 )
 

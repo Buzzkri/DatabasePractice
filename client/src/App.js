@@ -10,6 +10,7 @@ import ProductsForm from './components/ProductsForm';
 import ProductView from './components/ProductView';
 import PlaylistView from './components/PlaylistView';
 import Playlists from './components/Playlists';
+import Artists from './components/Artists';
 
 
 
@@ -25,6 +26,7 @@ const App = () => (
         <Route exact path="/products/:id" component={ProductView} />
         <Route exact path="/playlists/:id" component={PlaylistView} />
         <Route exact path="/playlists" component={Playlists} />
+        <Route exact path="/artists" component={Artists} />
         <Route component={NoMatch} />
       </Switch>
     </Container>
